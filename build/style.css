@@ -1,0 +1,23 @@
+h3 {
+  color: black;
+}
+body {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+
+.Searchstuff {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input[type="text"]:disabled {
+    background: black;
+    color: white;
+}
+
+
