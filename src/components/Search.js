@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import axios from "axios";
-import Chart from './Chart';
 import Dataform from "./Dataform"
 
 class Search extends Component {
