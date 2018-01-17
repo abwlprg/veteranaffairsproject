@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 
 import Search from './Search';
 import Dataform from './Dataform';
+import Contactform from './Contactform';
 import '../../styles/App.css';
-import Axios from 'axios';
+
 
 class App extends Component {
 
@@ -15,7 +16,7 @@ class App extends Component {
 
 
       <Search />
-
+      <Contactform />
       </div>
    );
   }
